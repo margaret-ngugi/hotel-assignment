@@ -1,0 +1,303 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgrey;
+}
+.navbar{
+    margin-left: 10%;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.main{
+    background-image: url(hotell.jpg);
+    background: linear-gradient();
+    background-size: cover;
+    height: 500px;
+    
+}
+    
+    
+.hotel{
+    margin-left: 10%;
+    width: 60%;
+    height: 50%;
+}
+.heading{
+    margin-left: 20%;
+    color: white;
+    margin-top: 25%;
+    font-size: 50px;
+
+    
+    
+}
+.set{
+    margin-left: 20%;
+    margin-top: 6%;
+
+}
+.images{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 3%;
+    border-radius: 5%;
+
+    
+}
+.photos{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 10%;
+}
+.butt{
+    
+    border-radius: 15%;
+    padding: 3%;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+}
+.head{
+    margin-left: 35%; 
+    margin-top: 4%;  
+}
+.icons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 8%;
+    display: flex;
+
+}
+.icons1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 3%;
+    display: flex;
+
+}
+.rooms{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.client1{
+    margin-left: 30%;
+}
+.details{
+    margin-left: 30%;
+    font-size: larger;
+}
+.rooms2{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu{
+    margin-left: 30%;
+    font-size: larger;
+}
+.order{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.order2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+       
+}
+.butt1{
+    border-radius: 15%;
+    padding: 3%;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+
+}
+.butt2{
+    border-radius: 15%;
+    padding: 3%;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+
+
+}
+.butt3{
+    border-radius: 15%;
+    padding: 3%;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+
+
+}
+.butt4{
+    border-radius: 15%;
+    padding: 3%;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+
+
+}
+.butt5{
+    border-radius: 15%;
+    padding: 3%;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+
+
+}
+.butt6{
+    border-radius: 15%;
+    padding: 3%;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+
+
+}
+.butt7{
+    border-radius: 15%;
+    padding: 3%;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+
+
+}
+.butt8{
+    border-radius: 15%;
+    padding: 3%;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+
+
+}
+.butt9{
+    border-radius: 15%;
+    padding: 3%;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+
+
+}
+.butt10{
+    border-radius: 15%;
+    padding: 3%;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+
+
+}
+.butt11{
+    border-radius: 15%;
+    padding: 3%;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+
+
+}
+.client{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.services{
+    margin-left: 55%;
+    font-size: larger;
+}
+.header{
+    margin-left: 30%;
+    margin-top: 3%;
+}
+.image2{
+    width: 20%;
+    height: 30%;
+    margin-top: -30%;
+    margin-left: 15%;   
+}
+.details1{
+    font-size: larger;
+    margin-left: 30%;
+}
+.detailss{
+    background-color: blue;   
+    
+}
+.buttt{
+    margin-left: 35%;
+    padding: 3%;
+    font-size: larger;
+    border-radius: 10%;
+}
+@media only screen and (max-width: 600px){
+    footer{
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        
+        color: black;
+    }
+
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    
+    color: black;
+}
+/* @media only screen and (max-width: 600px){
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20%;
+    padding: 4%;
+    
+    color: white;
+    font-size: large; */
+
+/* } */
+    
+.button{
+    
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20%;
+    padding: 4%;
+    
+    color: white;
+    font-size: large;
+}
+
+    
