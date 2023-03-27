@@ -28,7 +28,7 @@ body{
 
 }
 .main{
-    background-image: url(hotell.jpg);
+    background-image: url(hot.jpg);
     /* background: linear-gradient(); */
     background-size: cover;
     height: 500px;
@@ -217,26 +217,32 @@ body{
     grid-template-columns: repeat(3,1fr);
 }
 
-.image2 {
+.imagess {
     
     height: 25rem;
      width: 30rem; 
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding: 2%;
+    margin-right: 5%;
+    margin-bottom: 4%;
     
     
 
 }
-.image2 img{
-    width: 100%;
-    height: 110%;
+.imagess img{
+    width: 70%;
+    height: 20vh;
     padding: 2%;
+    margin-bottom: 4%;
+    
 }
 #image{
     
     display: inline;
-    display: grid;   
+    display: grid;
+    margin-right: 2%;  
+     
 }
 .description{
     margin-top: -8%;
@@ -256,7 +262,7 @@ button{
     color: antiquewhite;
     border-radius: 20%;
 }
-.details{
+.detail{
     margin-top: 1%;
     font-size: x-large;
 
