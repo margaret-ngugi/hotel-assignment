@@ -358,6 +358,33 @@ footer{
     
 }
 }
+@media screen and (min-width: 850px) {
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.Contact{
+    
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.help{
+    margin-left: 35%;
+    font-size: larger;
+}
+.buttonn input{
+    padding: 30px;
+    display: flex;
+
+}
+}
+
+
+  
+
+
 
     
     
